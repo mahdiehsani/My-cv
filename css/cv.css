@@ -1,270 +1,310 @@
-
 /* fonts */
 
 /* font-family: 'Roboto', sans-serif; */
 /* fontawesome style: fa-fw w3-margin-right w3-large w3-text-teal */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
-.left-container{
-    width: 33%;
-    margin: 20px;
-    padding: 30px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    float: left;
+.left-container {
+  width: 33%;
+  margin: 20px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  float: left;
 }
-.image{
-    width: 100%;
+.image {
+  width: 100%;
 }
-img{
-    width: 100%;
-    height: auto;
+img {
+  width: 100%;
+  height: auto;
 }
-.right-container{
-    width: 60%;
-    float: right;
+.right-container {
+  width: 60%;
+  float: right;
 }
-.experiance, .education{
-    width: 95%;
-    margin-top: 20px;
-    padding: 30px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.experiance,
+.education {
+  width: 95%;
+  margin-top: 20px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.progress-bar{
-    position: relative;
-    width: 100%;
-    height: 2em;
-    background-color: #222831;
-    border-radius: 1.5em;
-    color: #fff;
+.progress-bar {
+  position: relative;
+  width: 100%;
+  height: 2em;
+  background-color: #222831;
+  border-radius: 1.5em;
+  color: #fff;
 }
-.progress-bar::before{
-    content: attr(data-label);
-    display: flex;
-    align-items: center;
-    position: absolute;
-    left: .5em;
-    top: .5em;
-    bottom: .5em;
-    min-width: 2rem;
-    background-color: #125191;
-    border-radius: 1em;
-    padding: 10px;
-    font-size: 12px;
-    box-sizing: border-box;
+.progress-bar::before {
+  content: attr(data-label);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0.5em;
+  top: 0.5em;
+  bottom: 0.5em;
+  min-width: 2rem;
+  background-color: #125191;
+  border-radius: 1em;
+  padding: 10px;
+  font-size: 12px;
+  box-sizing: border-box;
 }
-.htm::before{
-    width: 80%;
-    animation: htm 2s;
+.htm::before {
+  width: 80%;
+  animation: htm 2s;
 }
-.css::before{
-    width: 70%;
-    animation: css 2s;
+.css::before {
+  width: 70%;
+  animation: css 2s;
 }
-.javascript::before{
-    width: 50%;
-    animation: javascript 2s;
+.javascript::before {
+  width: 50%;
+  animation: javascript 2s;
 }
-.responsive::before{
-    width: 80%;
-    animation: responsive 2s;
+.jquery::before {
+  width: 60%;
+  animation: javascript 2s;
 }
-.bootstrap::before{
-    width: 75%;
-    animation: bootstrap 2s;
+.responsive::before {
+  width: 80%;
+  animation: responsive 2s;
 }
-.git::before{
-    width: 90%;
-    animation: git 2s;
+.wordpress::before {
+  width: 85%;
+  animation: responsive 2s;
 }
-.persi::before{
-    width: 98%;
-    animation: persi 2s;
+.bootstrap::before {
+  width: 75%;
+  animation: bootstrap 2s;
 }
-.english::before{
-    width: 90%;
-    animation: english 2s;
+.git::before {
+  width: 90%;
+  animation: git 2s;
 }
-.bahasa::before{
-    width: 60%;
-    animation: bahasa 2s;
+.persi::before {
+  width: 98%;
+  animation: persi 2s;
 }
-h2{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 2em;
-    color:  #222831;
+.english::before {
+  width: 90%;
+  animation: english 2s;
 }
-h5{
-    font-size: 1.2em;
-    margin-top: 10px;
+.bahasa::before {
+  width: 60%;
+  animation: bahasa 2s;
 }
-h6{
-    font-size: 14px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #222831;
 }
-p{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 1em;
-    line-height: 2;
-    color: #222831;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px;
+h5 {
+  font-size: 1.2em;
+  margin-top: 10px;
 }
-.fa, .w-icon {
-    margin-right: 10px;
-    color: #125191;
+h6 {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.large-p{
-    font-size: 1.2em;
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1em;
+  line-height: 2;
+  color: #222831;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
 }
-.clearfix::after{
-   content: "";
-   display: table;
-   clear: both;
+.fa,
+.w-icon {
+  margin-right: 10px;
+  color: #125191;
 }
-footer{
-    
-    background-color: #f3f4ed;
+.large-p {
+  font-size: 1.2em;
 }
-.social-menu{
-    padding: 20px;
-    text-align: center;
-    
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
-.social-menu ul li{
-    list-style: none;
-    margin: 0 10px;
-    display: inline-block;
+footer {
+  background-color: #f3f4ed;
+}
+.social-menu {
+  padding: 20px;
+  text-align: center;
+}
+.social-menu ul li {
+  list-style: none;
+  margin: 0 10px;
+  display: inline-block;
 }
 
 .social-menu ul li .fab {
-    font-size: 20px;
-    line-height: 30px;
-    transition: .6s;
-    color: #fff;
-  }  
-.social-menu ul li a{
-    position: relative;
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    text-align: center;
-    transition: .6s;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 20px;
+  line-height: 30px;
+  transition: 0.6s;
+  color: #fff;
 }
-.social-menu ul li a:hover{
-    transform: translate(0, -10px);
+.social-menu a {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: 0.6s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.facebook{
-    background-color: #1877f2;
+a .fab {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.instagram{
-    background-color: #bd081c;
+.social-menu ul li a:hover {
+  transform: translate(0, -10px);
 }
-.twitter{
-    background-color: #55acee;
+.facebook {
+  background-color: #1877f2;
 }
-.whatsapp{
-    background-color: #25D366;
+.instagram {
+  background-color: #bd081c;
 }
-.footer-p{
-    padding: 10px 0px 7px 0px;
-    text-align: center;
-    margin: 0;
-    background-color: #222831;
+.twitter {
+  background-color: #55acee;
 }
-.footer-p p{
-    font-size: 70%;
-    color: #fff;
-    margin: 0;
-
+.whatsapp {
+  background-color: #25d366;
+}
+.linkedin {
+  background-color: #0a66c2;
+}
+.footer-p {
+  padding: 10px 0px 7px 0px;
+  text-align: center;
+  margin: 0;
+  background-color: #222831;
+}
+.footer-p p {
+  font-size: 70%;
+  color: #fff;
+  margin: 0;
 }
 @media screen and (max-width: 768px) {
-    body{
-        margin: 20px;
-    }
-    .left-container{
-        width: 100%;
-        margin: 0;
-    }
-    .right-container{
-        width: 100%;
-    }
-    .experiance, .education{
-        margin: 20px 0px;
-        padding: 30px;
-        width: 100%;
-    }
+  body {
+    margin: 20px;
+  }
+  .left-container {
+    width: 100%;
+    margin: 0;
+  }
+  .right-container {
+    width: 100%;
+  }
+  .experiance,
+  .education {
+    margin: 20px 0px;
+    padding: 30px;
+    width: 100%;
+  }
 }
 
-@keyframes htm{
-    0%{
-        width: 0%;
-    }100%{
-        width: 80%;
-    }
+@keyframes htm {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
 }
-@keyframes css{
-    0%{
-        width: 0%;
-    }100%{
-        width: 70%;
-    }
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
 }
-@keyframes javascript{
-    0%{
-        width: 0%;
-    }100%{
-        width: 50%;
-    }
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
 }
-@keyframes responsive{
-    0%{
-        width: 0%;
-    }100%{
-        width: 50%;
-    }
+@keyframes jquery {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
 }
-@keyframes bootstrap{
-    0%{
-        width: 0%;
-    }100%{
-        width: 75%;
-    }
+@keyframes responsive {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
 }
-@keyframes persi{
-    0%{
-        width: 0%;
-    }100%{
-        width: 97%;
-    }
+@keyframes wordpress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
 }
-@keyframes english{
-    0%{
-        width: 0%;
-    }100%{
-        width: 90%;
-    }
+@keyframes bootstrap {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
 }
-@keyframes bahasa{
-    0%{
-        width: 0%;
-    }100%{
-        width: 60%;
-    }
+@keyframes persi {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 97%;
+  }
 }
-@keyframes git{
-    0%{
-        width: 0%;
-    }100%{
-        width: 80%;
-    }
+@keyframes english {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes bahasa {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes git {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
 }
